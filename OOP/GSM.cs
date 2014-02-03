@@ -42,7 +42,7 @@ namespace OOP
             {
                 this.display = new Display(3.5, "16M");
                 this.battery = new Battery(null, 9, 200, BatteryType.LiIon);
-                iphone4S = new GSM("IPhone4S", "Apple", 745, "zdravka",battery,display);
+                iphone4S = new GSM("IPhone4S", "Apple", 745, "zdravka", battery, display);
                 return iphone4S.ToString();
             }
         }
