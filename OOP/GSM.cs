@@ -53,6 +53,5 @@ namespace OOP
                 this.model ?? "[none]",this.manufacturer ?? "[none]",this.price, this.owner ?? "[none]", this.battery, this.display);
         }
        
-
     }
 }
